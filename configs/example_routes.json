@@ -1,0 +1,38 @@
+{
+  "mode": "random",
+  "output_file": "outputs/sumo/public-example.rou.xml",
+  "routes": {
+    "route_0": "edge_a edge_b"
+  },
+  "vehicle_types": [
+    {
+      "id": "passenger",
+      "max_speed": 13.9,
+      "vehicle_class": "passenger",
+      "color": "1,0,0",
+      "extra_attributes": {
+        "minGap": "5"
+      }
+    },
+    {
+      "id": "truck",
+      "max_speed": 11.1,
+      "vehicle_class": "truck",
+      "color": "0,0,1",
+      "extra_attributes": {
+        "minGap": "8"
+      }
+    }
+  ],
+  "random": {
+    "vehicles_per_hour": 400,
+    "simulation_duration": 60,
+    "depart_lanes": ["0", "1"],
+    "speed_range": [8.0, 13.9],
+    "vehicle_probabilities": {
+      "passenger": 0.8,
+      "truck": 0.2
+    },
+    "seed": 42
+  }
+}

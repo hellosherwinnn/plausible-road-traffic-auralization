@@ -1,0 +1,11 @@
+{
+  "project_root": ".",
+  "sumo_config": "examples/sumo/osm.sumocfg",
+  "fcd_xml": "examples/sumo/sample_fcd.xml",
+  "measured_trajectory_dir": "examples/measured-trajectories",
+  "trajectory_output_dir": "outputs/trajectories",
+  "pigeon_output_dir": "outputs/pigeon",
+  "audio_output_dir": "outputs/audio",
+  "geometry_file": "examples/geometry/public-placeholder.dae",
+  "pigeon_executable": ""
+}

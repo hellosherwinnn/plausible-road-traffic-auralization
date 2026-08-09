@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and machine-specific paths
+configs/local*.json
+*.local.json
+matlab/config.local.m
+.env
+
+# Generated simulation and audio outputs
+outputs/
+results/
+tmp/
+*.wav
+*.flac
+*.mp3
+*.reapeaks
+*.aup3
+*.jsonl
+
+# Large or third-party assets intentionally excluded from the public skeleton
+*.blend
+*.blend1
+*.dae
+*.skp
+*.uasset
+*.dll
+*.exe
+*.whl
+*.ita
+
+# Thesis/private material
+*.pdf
+*.xlsx
